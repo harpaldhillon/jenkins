@@ -1,13 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
-
   <groupId>test.java</groupId>
   <artifactId>bank-app</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
-
   <name>bank-app</name>
   <url>http://maven.apache.org</url>
 
@@ -23,11 +20,11 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-<distributionManagement>
+  <distributionManagement>
     <repository>
       <id>nexus</id>
       <name>barclays</name>
-      <url>http://ec2-52-31-158-40.eu-west-1.compute.amazonaws.com/nexus/content/repositories/releases/</url>
+      <url>http://ec2-52-31-158-40.eu-west-1.compute.amazonaws.com/nexus/content/repositories/snapshots/</url>
     </repository>
   </distributionManagement>
 </project>
